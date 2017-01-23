@@ -1,0 +1,37 @@
+@import 'typi';
+
+$breakpoints: (
+  small: 800px,
+  large: 1200px
+);
+
+$typi: (
+  null: 16px,
+  small: 18px,
+  large: 20px
+);
+
+
+$h1-map: (
+  null: (3.129em, 1.2),
+  large: (2.3353em, 1.3)
+  );
+
+$h2-map: (
+  null: 2.3353em,
+  large: 1.769em
+  );
+
+$h3-map: (
+  null: 1.769em,
+  large: 1.333em
+  );
+
+
+html {
+  @include typi-base();
+}
+
+h1 { @include typi($h1-map) }
+h2 { @include typi($h2-map) }
+h3 { @include typi($h3-map) }

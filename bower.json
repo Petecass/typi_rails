@@ -1,0 +1,20 @@
+{
+  "name": "typi_rails",
+  "description": "Short description and motivation.",
+  "main": "index.js",
+  "authors": [
+    "Pete Cass <pete@petecss.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "typi": "^2.3.0"
+  }
+}
