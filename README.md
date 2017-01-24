@@ -1,4 +1,7 @@
 # TypiRails
+
+![Codeship](https://codeship.com/projects/000e2420-c497-0134-7204-7e1cf7b64920/status?branch=master)
+
 Typi Rails is a Gemified wrapper for [Typi](https://github.com/zellwk/typi) (A Sass Mixin) for use in you Rails project
 
 ## Usage
